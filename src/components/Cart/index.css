@@ -1,0 +1,67 @@
+.cart-container {
+  display: flex;
+  justify-content: center;
+  min-height: 75vh;
+}
+
+@media screen and (min-width: 768px) {
+  .cart-container {
+    min-height: 90vh;
+  }
+}
+
+.cart-content-container {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  max-width: 1110px;
+}
+
+@media screen and (min-width: 768px) {
+  .cart-content-container {
+    width: 80%;
+    max-width: 1110px;
+  }
+}
+
+.cart-heading {
+  color: #3e4c59;
+  font-family: 'Roboto';
+  font-size: 24px;
+  font-weight: 700;
+}
+
+@media screen and (min-width: 768px) {
+  .cart-heading {
+    font-size: 48px;
+  }
+}
+
+/* Write your CSS here */
+.removeAll-cartList-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.removeAll-button {
+  align-self: flex-end;
+  background-color: white;
+  font-size: 10px;
+  border: none;
+  color: blue;
+  padding: 10px;
+  height: 20px;
+  width: 100px;
+}
+@media screen and (min-width: 768px) {
+  .removeAll-button {
+    font-size: 20px;
+    padding: 10px;
+    height: 40px;
+    width: 200px;
+  }
+}
+.cartSummary-container {
+  align-self: flex-end;
+}

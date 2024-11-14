@@ -1,0 +1,67 @@
+/* Write your CSS here */
+.cartSummary-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  background-color: white;
+  border: none;
+  padding: 10px;
+}
+.orderTotal-heading {
+  color: gray;
+  font-size: 10px;
+  margin-bottom: 0px;
+}
+.totalPrice-style {
+  color: black;
+  font-size: 15px;
+}
+.noOfItemsInCart {
+  color: gray;
+  font-size: 10px;
+  margin-top: 0px;
+}
+.checkOut-button {
+  color: white;
+  font-size: 10px;
+  background-color: blue;
+  padding: 10px;
+  height: 30px;
+  width: 100%;
+  border: none;
+}
+
+@media screen and (min-width: 768px) {
+  .cartSummary-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    background-color: white;
+    border: none;
+    padding: 10px;
+  }
+  .orderTotal-heading {
+    color: gray;
+    font-size: 15px;
+    margin-bottom: 0px;
+  }
+  .totalPrice-style {
+    color: black;
+    font-size: 20px;
+  }
+  .noOfItemsInCart {
+    color: gray;
+    font-size: 13px;
+    margin-top: 0px;
+  }
+  .checkOut-button {
+    color: white;
+    background-color: blue;
+    padding: 10px;
+    height: 40px;
+    width: 100%;
+    border: none;
+  }
+}
